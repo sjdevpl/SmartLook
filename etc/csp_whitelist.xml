@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>                
+                  <value id="smartlook-sdk" type="host">https://web-sdk.smartlook.com</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="smartlook-manager" type="host">https://manager.eu.smartlook.cloud</value>              
+                <value id="smartlook-api" type="host">https://web-writer.eu.smartlook.cloud</value>
+                <value id="smartlook-assets" type="host">https://assets-proxy.smartlook.cloud</value>
+                
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
